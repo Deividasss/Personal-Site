@@ -1,0 +1,59 @@
+.hireMeMain {
+    background-color: rgba(230, 230, 230, 0.149);
+    width: 90%;
+    margin-left: 5%;
+}
+.hireMeHeading {
+    padding: 15% 15%;
+    color: white;
+}
+
+.header_address {
+    text-align: center;
+}
+.header_address h3 {
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    font-weight: 400;
+    margin-top: -5px;
+}
+.header_address h3 span {
+    border-bottom: solid 2px #f2f2f2;
+    padding-bottom: 10px;
+}
+.section12_column p span {
+    color: #fdfdfd;
+}
+.section12_columns {
+    text-align: center;
+    display: flex;
+    padding-top: 5%;
+    margin-left: 25%;
+}
+.section12_column {
+    padding-right: 11%;
+}
+.section12_columns i {
+    color: #ffffff;
+    font-size: 50px;
+}
+.section12_columns h3 {
+    color: yellow;
+    font-size: 18px;
+    font-weight: 800;
+}
+.section12_columns p {
+    color: white;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 300;
+}
+.section12_column a {
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+.section12_column a:hover {
+    color: rgb(193, 193, 193);
+    text-decoration: underline;
+}

@@ -1,0 +1,56 @@
+.aboutMain {
+    background-color: rgba(230, 230, 230, 0.149);
+    width: 90%;
+    margin-left: 5%;
+}
+.aboutHeading {
+    padding: 10% 15%;
+    color: white;
+    h1 {
+        font-size: 60px;
+    }
+    h3 {
+        font-size: 35px;
+        margin-top: 5%;
+    }
+    h2 {
+        margin-top: 5%;
+    }
+    hr {
+        color: white;
+    }
+}
+.course {
+    font-weight: bold;
+    span{
+        font-weight: 200;
+        color: yellow;
+    }
+}
+.aboutInfo {
+    display: flex;
+}
+.aboutImg {
+    width: 350px;
+    margin: 40% 200px 0 0;
+    opacity: 0.8;
+    border-radius: 20px;
+    box-shadow: 3px 10px 37px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 3px 10px 37px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 3px 10px 37px 0px rgba(0, 0, 0, 0.75);
+}
+.aboutInfoImg {
+    h1 {
+        color: white;
+        margin-top: 20px;
+    }
+    p {
+        color: white;
+        line-height: 12px;
+    }
+    hr {
+        color: white;
+        width: 65%;
+        margin-top: -5px;
+    }
+}
