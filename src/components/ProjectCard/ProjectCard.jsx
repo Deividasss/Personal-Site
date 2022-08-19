@@ -40,7 +40,7 @@ const ProjectCard = (props) => {
 
             <Modal size="lg" onHide={hideModal} show={modal} aria-labelledby="contained-modal-title-vcenter" centered>
                 <div className="modalMain">
-                    <Button className="itemModalBtn" variant="close" onClick={hideModal}></Button>
+                    <Button className="itemModalBtn btn-close" variant="none" onClick={hideModal}></Button>
                     <Container className="nftEditMain">
                         <>
                             <div className="crowdFundEdit">
