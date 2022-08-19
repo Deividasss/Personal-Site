@@ -15,7 +15,7 @@ const Nav = () => {
                     <div class="collapse navbar-collapse navLinks">
                         <ul class="navbar-nav">
                             <li class="">
-                                <a class="navLink" href="#">Projects</a>
+                                <a class="navLink" onClick={() => navigate("Projects")}>Projects</a>
                             </li>
                             <li class="">
                                 <a class="navLink" onClick={() => navigate("About")}>About</a>

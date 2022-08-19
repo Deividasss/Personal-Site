@@ -2,14 +2,14 @@
     text-align: center;
     color: white;
     background-color: rgba(230, 230, 230, 0.149);
-    height: 100vh;
-    padding-top: 10%;
+    height: 150vh;
+    padding-top: 14%;
     width: 90%;
     margin-left: 5%;
 }
 .mainHeading {
     float: left;
-    margin: 2% 0 0 10%;
+    margin: 2% 0 0 12%;
     text-align: left;
     h1 {
         font-size: 60px;
@@ -21,10 +21,6 @@
 }
 .mainImg {
     width: 45%;
-    box-shadow: 3px 10px 37px 0px rgba(0, 0, 0, 0.75);
-    -webkit-box-shadow: 3px 10px 37px 0px rgba(0, 0, 0, 0.75);
-    -moz-box-shadow: 3px 10px 37px 0px rgba(0, 0, 0, 0.75);
-    border-radius: 40%;
 }
 .readMoreBtn {
     background-color: yellow;
@@ -39,5 +35,34 @@
     -moz-box-shadow: 3px 10px 37px 0px rgba(0, 0, 0, 0.75);
 }
 .readMoreBtn:hover {
+    background-color: rgba(255, 255, 0, 0.481);
+}
+.projectHeading {
+    display: flex;
+    h1 {
+        margin: 25% 0 0 0;
+        font-size: 60px;
+        text-align: left;
+    }
+}
+.projectImg {
+    
+    img {
+        width: 60%;
+        margin: 0 50% 0 0;
+    }
+}
+.projectsBtn{
+    background-color: yellow;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 40px 10px 40px;
+    transition: 0.5s;
+    margin: 10% 50% 0 0;
+    box-shadow: 3px 10px 37px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 3px 10px 37px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 3px 10px 37px 0px rgba(0, 0, 0, 0.75);
+}
+.projectsBtn:hover {
     background-color: rgba(255, 255, 0, 0.481);
 }

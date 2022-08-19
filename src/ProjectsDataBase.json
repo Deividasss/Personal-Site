@@ -1,0 +1,32 @@
+{
+    "projects": [
+        {
+            "id": 1,
+            "author": "Deividas Kašėta",
+            "demo": "https://electronicshopas.herokuapp.com/",
+            "name": "Electronics Shop",
+            "description": "This is an completed electronic goods store created by me. Here you can find various products that can be filtered by name, add them to the cart and complete the purchase of the product",
+            "img": "https://www.liquidplanner.com/wp-content/uploads/2020/10/the-future-of-project-management-liquidplanner-1.jpg",
+            "gitHub": "https://github.com/Deividasss/ElectronicsShop",
+            "condition": "Available"
+        },
+        {
+            "id": 2,
+            "name": "NFT's Market",
+            "author": "Deividas Kašėta",
+            "description": "This is the NFT's market I made. Here you can find registration, login, NFT's market, and creation of your NFT. This work is connected to a MySQL database, so everything is fully stored in the database. The project is still being worked on, so there may be bugs",
+            "img": "https://www.liquidplanner.com/wp-content/uploads/2020/10/the-future-of-project-management-liquidplanner-1.jpg",
+            "gitHub": "https://github.com/Deividasss/nfts-market",
+            "condition": "Not available "
+        },
+        {
+            "id": 3,
+            "name": "Teltonika Homework",
+            "img": "https://www.liquidplanner.com/wp-content/uploads/2020/10/the-future-of-project-management-liquidplanner-1.jpg",
+            "author": "Deividas Kašėta",
+            "gitHub": "https://github.com/Deividasss/teltonika-homeworks",
+            "condition": "Not available ",
+            "description": ""
+        }
+    ]
+}
