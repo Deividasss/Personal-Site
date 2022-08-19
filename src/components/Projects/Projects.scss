@@ -3,8 +3,17 @@
     width: 90%;
     margin-left: 5%;
 }
-.projectsHeading{
+.projectsHeading {
     padding: 15% 10%;
     color: white;
     text-align: center;
+}
+
+@media screen and (max-width: 500px) {
+    .projectsHeading{
+        padding: 32% 10%;
+        h1{
+            padding-bottom: 10%;
+        }
+    }
 }
