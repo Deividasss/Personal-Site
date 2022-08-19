@@ -3,7 +3,7 @@
         {
             "id": 1,
             "author": "Deividas Kašėta",
-            "demo": "https://electronicshopas.herokuapp.com/",
+            "demo": "https://electronics-shop.vercel.app/",
             "name": "Electronics Shop",
             "description": "This is an completed electronic goods store created by me. Here you can find various products that can be filtered by name, add them to the cart and complete the purchase of the product",
             "img": "https://www.liquidplanner.com/wp-content/uploads/2020/10/the-future-of-project-management-liquidplanner-1.jpg",
