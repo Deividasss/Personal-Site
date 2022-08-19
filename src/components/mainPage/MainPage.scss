@@ -46,13 +46,12 @@
     }
 }
 .projectImg {
-    
     img {
         width: 60%;
         margin: 0 50% 0 0;
     }
 }
-.projectsBtn{
+.projectsBtn {
     background-color: yellow;
     border: none;
     border-radius: 5px;
@@ -65,4 +64,29 @@
 }
 .projectsBtn:hover {
     background-color: rgba(255, 255, 0, 0.481);
+}
+
+@media screen and (max-width: 500px) {
+    .mainHeading {
+        margin-top: 15%;
+    }
+    .mainImg {
+        width: 400px;
+        margin: 10% 0;
+    }
+    .projectHeading {
+        display: block;
+        position: absolute;
+        h1 {
+            margin: -160% 0 0 6%;
+            font-size: 60px;
+            text-align: left;
+        }
+        img{
+            margin-top: 70%;
+        }
+    }
+    .mainPage{
+        height: 170vh;
+    }
 }
