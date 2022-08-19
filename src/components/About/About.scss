@@ -22,7 +22,7 @@
 }
 .course {
     font-weight: bold;
-    span{
+    span {
         font-weight: 200;
         color: yellow;
     }
@@ -52,5 +52,24 @@
         color: white;
         width: 65%;
         margin-top: -5px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .aboutHeading{
+        padding-top: 30%;
+    }
+    .aboutInfo{
+        display: block;
+    }
+    .aboutImg{
+        width: 260px;
+        margin: 0;
+    }
+    .aboutInfoImg{
+        margin: 0 0 0 16%;
+    }
+    .aboutMain{
+        height: 200vh;
     }
 }
