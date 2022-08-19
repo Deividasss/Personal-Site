@@ -148,6 +148,10 @@ span {
 span a:hover {
     color: rgb(165, 165, 115);
 }
+.itemModalBtn{
+    float: right;
+    margin: 2%;
+}
 
 @media screen and (max-width: 500px) {
     .details {
@@ -166,5 +170,9 @@ span a:hover {
     }
     .nftTitle{
         padding-bottom: 10%;
+    }
+    .itemModalBtn{
+        float: right;
+        margin: 5% !important;
     }
 }
