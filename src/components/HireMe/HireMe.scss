@@ -57,3 +57,19 @@
     color: rgb(193, 193, 193);
     text-decoration: underline;
 }
+
+@media screen and (max-width: 500px) {
+    .hireMeHeading {
+        padding-top: 35%;
+    }
+    .section12_columns {
+        display: block;
+        margin: 10% 0 0 10%;
+    }
+    .header_address h3 span {
+        border: none;
+    }
+    .hireMeMain{
+        height: 100vh;
+    }
+}
