@@ -1,9 +1,8 @@
-
 .navMain {
-  position: absolute;
-  top: 15px;
-  z-index: 999;
-  width: 100%;
+    position: absolute;
+    top: 15px;
+    z-index: 999;
+    width: 100%;
 }
 .navLogo {
     width: 60px;
@@ -13,10 +12,10 @@
 .navLogo:hover {
     transform: rotate(20deg);
 }
-.navLinks{
+.navLinks {
     margin-left: 5%;
 }
-.navLink{
+.navLink {
     color: yellow;
     text-decoration: none;
     padding: 0 50px 0 0;
@@ -25,21 +24,45 @@
     font-size: 18px;
     transition: 0.3s;
 }
-.navLink:hover{
+.navLink:hover {
     color: rgba(255, 255, 0, 0.664);
     text-decoration: underline;
 }
-.hireMe{
+.hireMe {
     margin-left: 50%;
 }
-.hireIcon{
+.hireIcon {
     margin-right: 10px;
     font-size: 30px;
 }
-@media screen and (max-width: 500px){
+.hamburger{
+    display: none;
+}
+@media screen and (max-width: 500px) {
     .navLogo {
         width: 60px;
         margin: 0 0 0 50px;
         transition: 1s;
+    }
+    .hireMe {
+        margin-top: -30%;
+    }
+    .navLinks {
+        display: none;
+    }
+    .navLink{
+        margin-left: 10%;
+    }
+    .modalMain{
+        text-align: center;
+    }
+    .menu{
+        padding-top: 5%;
+    }
+    .hamburger{
+        display: block;
+        margin: 0 70px 0 0 !important;
+        outline: none;
+        color: white !important;
     }
 }

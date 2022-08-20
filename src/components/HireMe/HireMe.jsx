@@ -13,7 +13,7 @@ const HireMe = () => {
                         <div class="section12_column col-4">
                             <i>{<FaLinkedin />}</i>
                             <h3>LINKEDIN</h3>
-                            <a href="https://www.linkedin.com/in/deividas-ka%C5%A1%C4%97ta-1888aa193/">Deividas Kašėta</a>
+                            <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/deividas-ka%C5%A1%C4%97ta-1888aa193/">Deividas Kašėta</a>
                         </div>
                         <div class="section12_column col-4">
                             <i>{<FaPhoneAlt />}</i>
