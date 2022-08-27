@@ -21,6 +21,16 @@
         },
         {
             "id": 3,
+            "name": "Free Games App",
+            "author": "Deividas Kašėta",
+            "demo": "https://freegames-info-site.vercel.app/",
+            "description": "This is a free games page where you can find tons of free games and try them out. Here you can find various games that can be filtered by name",
+            "img": "https://www.liquidplanner.com/wp-content/uploads/2020/10/the-future-of-project-management-liquidplanner-1.jpg",
+            "gitHub": "https://github.com/Deividasss/freegames-info-site",
+            "condition": "Available"
+        },
+        {
+            "id": 4,
             "name": "Teltonika Homework",
             "img": "https://www.liquidplanner.com/wp-content/uploads/2020/10/the-future-of-project-management-liquidplanner-1.jpg",
             "author": "Deividas Kašėta",
