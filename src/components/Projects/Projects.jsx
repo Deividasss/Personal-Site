@@ -4,8 +4,8 @@ import { useState } from "react"
 import ProjectCard from "../ProjectCard/ProjectCard"
 
 const Projects = () => {
-
     const [projectsData, SetProjectsData] = useState(MyProjects)
+    window.scrollTo(0, 0)
 
     return (
         <>

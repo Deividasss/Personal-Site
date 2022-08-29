@@ -3,6 +3,7 @@
     color: white;
     background-color: rgba(230, 230, 230, 0.149);
     padding-top: 14%;
+    padding-bottom: 10%;
     width: 90%;
     margin: auto;
 }
@@ -42,19 +43,18 @@
     background-color: rgba(255, 255, 0, 0.481);
 }
 .projectHeading {
-    display: flex;
-    margin: 2% 0 0 12%;
+    margin-top: 4%;
     .projectText {
         float: right;
+        margin: 5% 15% 0 0;
         h1 {
-            margin: 25% 0 0 0;
             font-size: 60px;
-            text-align: left;
+            text-align: right;
         }
     }
     img {
         width: 700px;
-        float: left;
+        margin: -2% 0;
     }
 }
 
@@ -64,7 +64,8 @@
     border-radius: 5px;
     padding: 10px 40px 10px 40px;
     transition: 0.5s;
-    margin: 10% 50% 0 0;
+    margin: 2% 10% 0 0;
+    float: right;
     box-shadow: 3px 10px 37px 0px rgba(0, 0, 0, 0.75);
     -webkit-box-shadow: 3px 10px 37px 0px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 3px 10px 37px 0px rgba(0, 0, 0, 0.75);
@@ -77,22 +78,28 @@
     .mainHeading {
         margin-top: 15%;
         display: block;
-        img{
+        img {
             margin: 10% 0% 0 -30%;
             width: 500px;
         }
+    }
+    .projectsBtn{
+        float: left;
+        margin: 8% 0 0 10%;
     }
     .projectHeading {
         margin: 2% 0 0 7%;
         display: block;
         padding-bottom: 50%;
-        .projectText{
+        .projectText {
             float: none;
-            h1{
+            h1 {
                 margin: 0;
+               text-align: left;
+               width: 120%;
             }
         }
-        img{
+        img {
             float: none;
             margin: 10% 0% 0 -22%;
             width: 500px;

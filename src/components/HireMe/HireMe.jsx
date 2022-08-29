@@ -2,6 +2,7 @@ import "../HireMe/HireMe.scss"
 import { FaLinkedin, FaPhoneAlt, FaMailBulk } from 'react-icons/fa';
 
 const HireMe = () => {
+    window.scrollTo(0, 0)
     return (
         <>
             <div className="hireMeMain">

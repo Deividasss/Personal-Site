@@ -6,6 +6,7 @@ import mono4 from '../../assets/Img/mono4.png'
 
 const MainPage = () => {
     const navigate = useNavigate()
+    window.scrollTo(0, 0)
     return (
         <>
             <div className="mainPage">

@@ -2,6 +2,7 @@ import "../About/About.scss"
 import mono1 from '../../assets/Img/mono1.jpg'
 
 const About = () => {
+    window.scrollTo(0, 0)
     return (
         <>
             <div className="aboutMain">
