@@ -10,17 +10,16 @@
 .product-grid:hover {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.15), 10px 10px rgba(0, 0, 0, 0.05);
     transform: scale(1.04);
+    cursor: pointer;
 }
 .product-grid .product-image {
     overflow: hidden;
     position: relative;
     border-radius: 15px 15px 0 0;
 }
-
 .product-grid .product-image img {
-    width: 310px;
-    height: 250px;
-    cursor: pointer;
+    width: 16rem;
+    height: 240px;
 }
 .product-grid .product-content {
     padding: 15px 12px;
@@ -159,6 +158,10 @@ span a:hover {
         width: 65%;
         padding-bottom: 5%;
         text-align: left;
+    }
+    .product-grid .product-image img {
+        width: 18rem;
+        height: 240px;
     }
     .nftInfoMain {
         display: block;
