@@ -1,105 +1,197 @@
-.mainPage {
-    text-align: center;
-    color: white;
-    background-color: rgba(230, 230, 230, 0.149);
-    padding-top: 14%;
-    padding-bottom: 10%;
-    
+.content {
+    background-image: url(https://dsathemes.com/html/xlander/pattern/img/thumbs/pattern.png);
+    background-color: rgb(74, 21, 21);
 }
-.mainHeading {
-    margin: 2% 0 0 12%;
-    text-align: left;
-    display: flex;
-    .headingText {
-        h1 {
-            font-size: 60px;
-        }
-        p {
-            font-size: 20px;
-            margin-top: 6%;
-        }
-    }
-
-    img {
-        margin: -2% 0 0 5%;
-        width: 700px;
-    }
+.header_general {
+    padding: 15rem 5rem 0 10rem;
+    height: 100vh;
 }
-
-.readMoreBtn {
-    background-color: yellow;
-    border: none;
-    border-radius: 5px;
-    padding: 10px 40px 10px 40px;
-    transition: 0.5s;
-    color: black;
-    float: left;
-    margin: 5% 0 0 5%;
-    box-shadow: 3px 10px 37px 0px rgba(0, 0, 0, 0.75);
-    -webkit-box-shadow: 3px 10px 37px 0px rgba(0, 0, 0, 0.75);
-    -moz-box-shadow: 3px 10px 37px 0px rgba(0, 0, 0, 0.75);
+#h1 {
+    font-size: 80px;
+    color: rgb(237, 236, 236);
 }
-.readMoreBtn:hover {
-    background-color: rgba(255, 255, 0, 0.481);
+#h2 {
+    color: rgb(220, 151, 77);
+    font-size: 50px;
 }
-.projectHeading {
-    margin-top: 4%;
-    .projectText {
-        float: right;
-        margin: 5% 15% 0 0;
-        h1 {
-            font-size: 50px;
-            text-align: right;
-        }
-    }
-    img {
-        width: 700px;
-        margin: -2% 0;
-    }
-}
-
-.projectsBtn {
-    background-color: yellow;
-    border: none;
-    border-radius: 5px;
-    padding: 10px 40px 10px 40px;
-    transition: 0.5s;
-    margin: 2% 10% 0 0;
+.content_img {
     float: right;
-    color: black;
-    box-shadow: 3px 10px 37px 0px rgba(0, 0, 0, 0.75);
-    -webkit-box-shadow: 3px 10px 37px 0px rgba(0, 0, 0, 0.75);
-    -moz-box-shadow: 3px 10px 37px 0px rgba(0, 0, 0, 0.75);
+    opacity: 0.7;
+    height: 60vh;
+    width: 70vh;
 }
-.projectsBtn:hover {
-    background-color: rgba(255, 255, 0, 0.481);
+.btnContainer {
+    margin: 6vh;
+}
+.headingBtn {
+    background-color: transparent;
+    border: none;
+    font-weight: bold;
+    border: solid 2px;
+    color: rgb(220, 151, 77);
+    padding: 20px 50px 20px 50px;
+    border-radius: 5px;
+}
+.headingBtn:hover {
+    transition: ease-in 0.4s;
+    transform: scale(1.1);
+    color: rgb(237, 236, 236);
+    background-color: rgb(220, 151, 77);
+    cursor: pointer;
+}
+.aboutMeContainer {
+    padding: 8rem;
+    margin: auto;
+    width: 80%;
+}
+.aboutMeHeading {
+    color: rgb(237, 236, 236);
+    font-size: 40px;
+}
+.aboutMeParagraph {
+    margin-top: 3rem;
+    width: 50%;
+    font-size: 20px;
+    color: rgb(178, 178, 178);
+}
+.servicesSection {
+    background-color: rgb(74, 21, 21);
+}
+.servicesContainer {
+    padding: 8rem;
+    margin: auto;
+    width: 80%;
+}
+.myServicesHeading {
+    color: rgb(237, 236, 236);
+    font-size: 40px;
+}
+.services {
+    display: flex;
+    justify-content: center;
+}
+.service {
+    margin: 2rem;
+    border: solid 1px rgb(220, 151, 77);
+    padding: 10px 20px;
+    text-align: center;
+}
+.icons {
+    color: rgb(237, 236, 236);
+    font-size: 4rem;
+}
+.serviceTitle {
+    font-size: 25px;
+    color: rgb(220, 151, 77);
+}
+.serviceParagraph {
+    margin-top: 15px;
+    color: rgb(178, 178, 178);
+    font-size: 18px;
+}
+.letsTalkSection {
+    background-color: rgb(85, 31, 31);
+}
+.letsTalkContainer {
+    padding: 8rem;
+    margin: auto;
+    width: 80%;
+}
+.letsTalkHeading {
+    color: rgb(237, 236, 236);
+    font-size: 40px;
+    font-weight: bold;
+    a {
+        color: rgb(220, 151, 77);
+        text-decoration: none;
+    }
+}
+.letsTalkHeading a:hover {
+    transition: ease-in 0.3s;
+    cursor: pointer;
+    color: rgb(220, 151, 77);
+    padding: 5px;
+}
+.letsTalkParagraph {
+    width: 80%;
+    color: rgb(178, 178, 178);
+    font-size: 20px;
+    margin-top: 25px;
+}
+.letsTalk_column p span {
+    color: #fdfdfd;
+}
+.letsTalk_columns {
+    text-align: center;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding-top: 2%;
+}
+.letsTalk_columns i {
+    color: rgb(237, 236, 236);
+    font-size: 60px;
+}
+.letsTalk_columns h3 {
+    color: rgb(220, 151, 77);
+    font-size: 25px;
+    font-weight: 800;
+}
+.letsTalk_columns p {
+    color: rgb(237, 236, 236);
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 300;
+}
+.letsTalk_column a {
+    text-decoration: none;
+    font-size: 18px;
+    color: rgb(237, 236, 236);
+    cursor: pointer;
+}
+.letsTalk_column a:hover {
+    color: rgb(178, 178, 178);
+    text-decoration: underline;
 }
 
 @media screen and (max-width: 500px) {
-    .mainHeading {
-        margin-top: 15%;
-        display: block;
-        img {
-            margin: 2rem 0% 0 -2rem;
-            width: 310px;
-        }
+    .content_img {
+        display: none;
     }
-    .projectsBtn{
-        float: left;
-        margin: 10%;
+    .header_general {
+        padding: 15rem 0rem 0 1rem;
+        height: 100vh;
     }
-    .projectHeading {
-        margin: 2% 0 0 10%;
-        text-align: left;
+    .aboutMeContainer {
+        padding: 5rem 0 0 0;
+    }
+    .aboutMeParagraph {
+        margin-top: 3rem;
+        width: 100%;
+        font-size: 20px;
+        color: rgb(178, 178, 178);
+    }
+    .servicesContainer {
+        padding: 5rem 0 5rem 0;
+        margin: auto;
+        width: 80%;
+    }
+    .services {
+        display: grid;
+        justify-content: center;
+    }
+    .letsTalkContainer {
+        padding: 5rem 0 5rem 0;
+        margin: auto;
+        width: 80%;
+    }
+    .letsTalk_columns {
         display: block;
-        .projectText {
-            h1 {
-               text-align: left;
-            }
-        }
-        img {
-            margin: 2rem 0% 0 -2rem;
-            width: 330px;
-        }
+        margin: 10% 0 0 10%;
+    }
+    .letsTalkParagraph {
+        width: 100%;
+        color: rgb(178, 178, 178);
+        font-size: 20px;
+        margin-top: 25px;
     }
 }

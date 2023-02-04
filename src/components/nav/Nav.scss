@@ -1,68 +1,52 @@
-.navMain {
-    position: absolute;
-    top: 15px;
-    z-index: 999;
+
+.navigation {
+    position: fixed;
     width: 100%;
+    display: inline-block;
+    top: 0;
+    z-index: 1000;
+    transition: all 0.5s;
+    padding: 10px 0px;
 }
-.navLogo {
-    width: 60px;
-    margin: 0 0 0 300px;
+.navigation.scrolled {
+    background-color: rgba(79, 30, 30, 0.799);
+    padding: 1px;
+}
+.logo {
+    width: 45px;
     transition: 1s;
+    margin: 8px 0 0 20rem;
 }
-.navLogo:hover {
-    transform: rotate(20deg);
-}
-.navLinks {
-    margin-left: 5%;
-}
-.navLink {
-    color: yellow;
+.navigation a {
     text-decoration: none;
-    padding: 0 50px 0 0;
-    text-transform: uppercase;
+    color: rgb(220, 151, 77);
+    display: inline-block;
+    margin-right: 70px;
+}
+.links {
+    margin-right: calc((100% - 80%) / 2);
+    float: right;
+    padding: 21px 0 15px 0;
+    font-weight: 700;
+    font-size: 15px;
+}
+.navigation a:hover {
+    color: rgb(237, 236, 236);
     cursor: pointer;
-    font-size: 18px;
-    transition: 0.3s;
+    transition: ease-in 0.3s;
+    transform: scale(1.1);
 }
-.navLink:hover {
-    color: rgba(255, 255, 0, 0.664);
-    text-decoration: underline;
-}
-.hireMe {
-    margin-left: 50%;
-}
-.hireIcon {
-    margin-right: 10px;
-    font-size: 30px;
-}
-.hamburger{
-    display: none;
-}
+
 @media screen and (max-width: 500px) {
-    .navLogo {
-        width: 60px;
-        margin: 0 0 0 50px;
-        transition: 1s;
+    .navigation a {
+        margin-right: 40px;
     }
-    .hireMe {
-        margin-top: -30%;
+    .navigation.scrolled {
+        .logo{
+            display: none;
+        }
     }
-    .navLinks {
-        display: none;
-    }
-    .navLink{
-        margin-left: 10%;
-    }
-    .modalMain{
-        text-align: center;
-    }
-    .menu{
-        padding-top: 5%;
-    }
-    .hamburger{
-        display: block;
-        margin: 0 70px 0 0 !important;
-        outline: none;
-        color: white !important;
+    .logo {
+        margin-left: 13rem;
     }
 }

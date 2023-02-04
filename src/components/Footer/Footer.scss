@@ -1,8 +1,18 @@
 .appFooter {
-    color: rgb(234, 234, 234);
+    color: rgb(220, 151, 77);
     text-align: center;
     width: 100%;
     padding: 4% 0 4% 0;
     background-color: #96969626;
+    z-index: 999;
 }
-
+.btn{
+    border-color: rgb(220, 151, 77) !important;
+}
+.btn:hover{
+    transition: ease-in 0.3s;
+    transform: scale(1.2);
+}
+.icon{
+    color: rgb(220, 151, 77);
+}
