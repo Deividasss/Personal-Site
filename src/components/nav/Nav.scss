@@ -43,11 +43,7 @@
         top: 0;
         z-index: 1000;
         transition: all 0.5s;
-        padding: 1rem 0 0 3rem;
-    }
-    .navigation.scrolled {
-        background-color: rgba(79, 30, 30, 0.799);
-        padding: 0px 0 0 3rem;
+        padding: 10px 0px;
     }
     .navigation a {
         text-decoration: none;
@@ -58,7 +54,7 @@
     .logo {
         width: 45px;
         transition: 1s;
-        margin: 8px 0 0 0.5rem;
+        margin: 8px 0 0 2rem;
        
     }
     .links {
