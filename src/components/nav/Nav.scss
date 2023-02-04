@@ -1,4 +1,3 @@
-
 .navigation {
     position: fixed;
     width: 100%;
@@ -38,15 +37,37 @@
 }
 
 @media screen and (max-width: 500px) {
-    .navigation a {
-        margin-right: 40px;
+    .navigation {
+        position: fixed;
+        width: 100%;;
+        top: 0;
+        z-index: 1000;
+        transition: all 0.5s;
+        padding: 10px 0px;
     }
-    .navigation.scrolled {
-        .logo{
-            display: none;
-        }
+    .navigation a {
+        text-decoration: none;
+        color: rgb(220, 151, 77);
+        display: inline-block;
+        margin-right: 30px;
     }
     .logo {
-        margin-left: 13rem;
+        width: 45px;
+        transition: 1s;
+        margin: 8px 0 0 2rem;
+       
+    }
+    .links {
+        float: none;
+        display: flex;
+        justify-content: center;
+        padding: 21px 0 15px 0;
+        font-weight: 700;
+        font-size: 15px;
+    }
+    .navigation.scrolled {
+        .logo {
+            display: none;
+        }
     }
 }
