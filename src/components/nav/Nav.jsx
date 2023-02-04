@@ -8,18 +8,9 @@ import { FaBars, } from 'react-icons/fa';
 
 const Nav = () => {
     const navigate = useNavigate()
-    const [modal, setModal] = useState(false)
-
-    const openModal = () => {
-        setModal(true)
-    }
-
-    const hideModal = () => {
-        setModal(false)
-    }
 
     window.addEventListener('scroll', () => {
-        const offset = 260
+        const offset = 100
         if (window.scrollY >= offset)
             document.getElementById('navigation').classList.add('scrolled')
         else
