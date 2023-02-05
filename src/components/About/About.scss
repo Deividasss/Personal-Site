@@ -8,6 +8,7 @@
     h3 {
         font-size: 35px;
         margin-top: 5%;
+        color: rgb(220, 151, 77);
     }
     h2 {
         margin-top: 5%;
@@ -15,12 +16,15 @@
     hr {
         color: white;
     }
+    p{
+        font-size: 18px;
+    }
 }
 .course {
     font-weight: bold;
     span {
         font-weight: 200;
-        color: yellow;
+        color: rgb(220, 151, 77);
     }
 }
 .aboutInfo {
@@ -42,7 +46,9 @@
     }
     p {
         color: white;
+        font-size: 20px;
         line-height: 12px;
+        color: rgb(178, 178, 178);
     }
     hr {
         color: white;

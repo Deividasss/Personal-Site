@@ -21,7 +21,7 @@ const MainPage = () => {
 
                 </div>
             </div>
-            <section>
+            <section className="aboutMeSection">
                 <div className="aboutMeContainer">
                     <h2 className="aboutMeHeading">I’m a Creative developer based on Lithuania, who loves clean, simple & unique design.</h2>
                     <p className="aboutMeParagraph">I believe that true craftsmanship is when 'design' and ' build' work together. Which is why when putting a site together I not only ask myself 'does it look good?', I'm also thinking 'will it work well?'. With me it's not all about image, It's about keeping a website on its toes and at the top of its game.</p>
