@@ -2,13 +2,13 @@
     font-family: "Poppins", sans-serif;
     transition: all 0.7s ease 0s;
     border-radius: 15px;
-    box-shadow: 1px -1px 16px -4px rgba(0, 0, 0, 0.77);
-    -webkit-box-shadow: 1px -1px 16px -4px rgba(0, 0, 0, 0.77);
-    -moz-box-shadow: 1px -1px 16px -4px rgba(0, 0, 0, 0.77);
+    box-shadow: 1px -1px 16px -4px rgb(220, 151, 77);
+    -webkit-box-shadow: 1px -1px 16px -4px rgb(220, 151, 77);
+    -moz-box-shadow: 1px -1px 16px -4px rgb(220, 151, 77);
     margin-top: 6%;
 }
 .product-grid:hover {
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15), 10px 10px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.15), 10px 10px rgba(255, 255, 255, 0.05);
     transform: scale(1.04);
     cursor: pointer;
 }
@@ -18,8 +18,10 @@
     border-radius: 15px 15px 0 0;
 }
 .product-grid .product-image img {
+    padding: 1rem;
     width: 16rem;
     height: 240px;
+    border-radius: 25px;
 }
 .product-grid .product-content {
     padding: 15px 12px;
@@ -28,7 +30,7 @@
 }
 .product-grid .product-title {
     font-size: 20px;
-    color: rgb(252, 252, 252);
+    color: rgb(220, 151, 77);
     font-weight: 600;
 }
 .line {
