@@ -11,7 +11,7 @@ import { useEffect } from 'react';
 function App() {
 
   useEffect(() => {
-    document.title = "DK Personal Page"
+    document.title = "David Porfolio"
   }, []);
 
   return (

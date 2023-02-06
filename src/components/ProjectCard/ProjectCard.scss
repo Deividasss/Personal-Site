@@ -18,6 +18,7 @@
     border-radius: 15px 15px 0 0;
 }
 .product-grid .product-image img {
+    object-fit: cover;
     padding: 1rem;
     width: 16rem;
     height: 240px;
@@ -79,15 +80,13 @@
 
 /*----------------------------------------------------------Modal-------------------------------------------------------------------------------------*/
 .modalMain {
-    background-image: url(https://wallpapersmug.com/download/3840x2400/2a5029/big-leaf-plant-flora.jpg);
-    color: white;
-}
-.nftEditMain {
-    background-color: rgba(255, 255, 255, 0.118);
+    background-color: rgb(74, 21, 21);
+    color: rgb(237, 236, 236);
 }
 .nftEditImg {
-    margin-top: 5%;
-    width: 300px;
+    margin-top: 2rem;
+    object-fit: cover;
+    width: 400px;
     height: 300px;
     border-radius: 10px;
     opacity: 0.9;
@@ -99,11 +98,11 @@
     display: flex;
 }
 .nftTitle {
-    font-size: 40px;
+    font-size: 50px;
 }
 .nftCollection {
-    font-size: 20px;
-    color: yellow;
+    font-size: 25px;
+    color: rgb(220, 151, 77);
     margin-top: 25%;
 }
 .collectionImg {
@@ -116,14 +115,14 @@
 
 .nftDescriptionTitle {
     margin-top: 3%;
-    font-size: 20px;
+    font-size: 30px;
 }
 .description {
     margin: 5% 10%;
     width: 80%;
 }
 .nftDescription {
-    font-size: 15px;
+    font-size: 18px;
 }
 .details {
     margin: 40px 0 0 30%;
@@ -131,10 +130,10 @@
     padding-bottom: 5%;
 }
 .nftDetails {
-    font-size: 20px;
+    font-size: 25px;
 }
 .nftCreator {
-    font-size: 14px;
+    font-size: 16px;
     color: rgba(255, 255, 255, 0.652);
 }
 .nftCreatorEmail {
@@ -143,15 +142,22 @@
 }
 span {
     a {
-        color: yellow;
+        color: rgb(220, 151, 77);
     }
 }
 span a:hover {
-    color: rgb(165, 165, 115);
+    color: rgb(175, 117, 54);
 }
 .itemModalBtn {
     float: right;
     margin: 2%;
+    padding: 6px !important;
+    background-color: rgb(220, 151, 77) !important;
+}
+.itemModalBtn:hover{
+    background-color: rgb(220, 151, 77) !important;
+    transition: ease-in 0.5s;
+    transform: rotate(360deg);
 }
 
 @media screen and (max-width: 500px) {
